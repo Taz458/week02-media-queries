@@ -1,0 +1,19 @@
+.container {
+    background: #eee;
+}
+
+@media (min-width: 800px) {
+    .container {
+        background: plum;
+    }
+}
+
+@media (max-width: 412px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+/*Above, if content is on a screen smaller or equal to 412 px,
+center the items and put gap bwteen them.*/
